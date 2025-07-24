@@ -24,6 +24,7 @@
   }
   h1 {
     font-size: 1.25rem;
+    font-weight: 500;
   }
   .sidebar .sidebar-section {
     margin: 0px;
@@ -46,6 +47,9 @@
   }
   .sidebar-item {
     margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500;
   }
 }
 @media (min-width: 771px) and (max-width: 949px) {
