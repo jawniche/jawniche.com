@@ -13,7 +13,42 @@
 
   --placeholder-border: 0px solid #021627;
 }
-@media (min-width: 400px) and (max-width: 949px) {
+@media (max-width: 624px) {
+  body {
+    margin-top: 23rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  header {
+    height: 19rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  .sidebar .sidebar-section {
+    margin: 0px;
+  }
+  .sidebar-section .sidebar-item, .sidebar-section .sidebar-item-null  {
+    font-size: 0.5rem;
+  }
+  footer {
+    position: fixed;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 625px) and (max-width: 770px) {
+  header {
+    height: 25rem;
+  }
+  .sidebar .sidebar-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-item {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 771px) and (max-width: 949px) {
   header {
     position: fixed;
     top: 0px;
@@ -35,11 +70,6 @@
   }
 }
 @media (max-width: 770px) {
-  body {
-    margin-top: 30rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
   header {
     position: fixed;
     top: 0px;
@@ -49,7 +79,6 @@
     display: flex;
     flex-wrap: wrap;
     
-    height: 25rem; 
     padding-top: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -73,12 +102,6 @@
     color: var(--jawniche-blue-25);
     border: var(--placeholder-border);
     z-index: 100;
-  }
-  .sidebar .sidebar-section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 4rem;
-    margin-right: 3rem;
   }
   .sidebar .sidebar-section h1 {
     margin-bottom: -4rem;
@@ -306,6 +329,12 @@
   .photo-and-text .section-item {
     display: flex;
     flex-direction: column;
+  }
+    .sidebar .sidebar-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-right: 3rem;
   }
 }
 @media (min-width: 1260px) {
