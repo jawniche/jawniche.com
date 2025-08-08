@@ -137,6 +137,10 @@ footer.sidebar__section {
   pointer-events: none;
 }
 
+.section--video-only {
+  margin-bottom: 3rem;
+}
+
 .section-grid {
   margin-bottom: 3rem;
 }
@@ -182,6 +186,9 @@ iframe {
   transition: opacity var(--transition-time);
 }
 
+.grid__item__overlay > a {
+  color: var(--jawniche-white);
+}
 .grid__item__overlay:hover {
   opacity: 1;
 }
